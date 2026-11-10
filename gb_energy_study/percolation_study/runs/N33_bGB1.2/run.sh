@@ -1,0 +1,4 @@
+OMP_NUM_THREADS=1 /home/gaurav/Documents/diffusion_project/gb_energy_study/percolation_study/bin/pf3d initIn=/home/gaurav/Documents/diffusion_project/gb_energy_study/percolation_study/ic/N33/ic.bin bGB=1.2 outDt=0.1 snapDt=1 saveGrains=0 tEnd=300 outDir=.
+OMP_NUM_THREADS=3 /home/gaurav/Documents/diffusion_project/gb_energy_study/percolation_study/bin/pf3d restartIn=checkpoint.bin bGB=1.2 outDt=0.1 snapDt=1 saveGrains=0 tEnd=300 outDir=.   # resumed at t=52.0
+OMP_NUM_THREADS=3 /home/gaurav/Documents/diffusion_project/gb_energy_study/percolation_study/bin/pf3d restartIn=checkpoint.bin bGB=1.2 outDt=0.1 snapDt=1 saveGrains=0 tEnd=300 outDir=.   # resumed at t=71.0
+OMP_NUM_THREADS=3 /home/gaurav/Documents/diffusion_project/gb_energy_study/percolation_study/bin/pf3d restartIn=checkpoint.bin bGB=1.2 outDt=0.1 snapDt=1 saveGrains=0 tEnd=300 outDir=.   # resumed at t=104.0

@@ -1,0 +1,1 @@
+reached time cap t=150.1 with 4 bubbles; stopped by monitor (resumable)

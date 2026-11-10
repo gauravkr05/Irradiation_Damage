@@ -1,0 +1,162 @@
+[
+ {
+  "t0": 16.0,
+  "t1": 17.0,
+  "n0": 33,
+  "n1": 32,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 17.0,
+  "t1": 18.0,
+  "n0": 32,
+  "n1": 30,
+  "merged": 2,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 18.0,
+  "t1": 19.0,
+  "n0": 30,
+  "n1": 28,
+  "merged": 2,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 19.0,
+  "t1": 20.0,
+  "n0": 28,
+  "n1": 26,
+  "merged": 2,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 20.0,
+  "t1": 21.0,
+  "n0": 26,
+  "n1": 25,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 21.0,
+  "t1": 22.0,
+  "n0": 25,
+  "n1": 21,
+  "merged": 4,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 22.0,
+  "t1": 23.0,
+  "n0": 21,
+  "n1": 16,
+  "merged": 5,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 23.0,
+  "t1": 24.0,
+  "n0": 16,
+  "n1": 14,
+  "merged": 2,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 24.0,
+  "t1": 25.0,
+  "n0": 14,
+  "n1": 12,
+  "merged": 2,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 26.0,
+  "t1": 27.0,
+  "n0": 12,
+  "n1": 11,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 28.0,
+  "t1": 29.0,
+  "n0": 11,
+  "n1": 9,
+  "merged": 2,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 29.0,
+  "t1": 30.0,
+  "n0": 9,
+  "n1": 8,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 30.0,
+  "t1": 31.0,
+  "n0": 8,
+  "n1": 7,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 42.0,
+  "t1": 43.0,
+  "n0": 7,
+  "n1": 6,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 44.0,
+  "t1": 45.0,
+  "n0": 6,
+  "n1": 5,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 49.0,
+  "t1": 50.0,
+  "n0": 5,
+  "n1": 4,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ }
+]

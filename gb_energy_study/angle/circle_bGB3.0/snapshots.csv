@@ -1,0 +1,10 @@
+time_dimensionless,step,c_file,grains_file
+0,0,morphology_step_0.raw,grains_step_0.raw
+50,101029,morphology_step_101029.raw,grains_step_101029.raw
+100,202008,morphology_step_202008.raw,grains_step_202008.raw
+150,302946,morphology_step_302946.raw,grains_step_302946.raw
+200,403846,morphology_step_403846.raw,grains_step_403846.raw
+250,504774,morphology_step_504774.raw,grains_step_504774.raw
+300,605676,morphology_step_605676.raw,grains_step_605676.raw
+350,706576,morphology_step_706576.raw,grains_step_706576.raw
+400,807476,morphology_step_807476.raw,grains_step_807476.raw

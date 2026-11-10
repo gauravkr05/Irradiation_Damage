@@ -1,0 +1,152 @@
+[
+ {
+  "t0": 11.0,
+  "t1": 12.0,
+  "n0": 25,
+  "n1": 23,
+  "merged": 2,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 12.0,
+  "t1": 13.0,
+  "n0": 23,
+  "n1": 20,
+  "merged": 3,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 13.0,
+  "t1": 14.0,
+  "n0": 20,
+  "n1": 16,
+  "merged": 4,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 14.0,
+  "t1": 15.0,
+  "n0": 16,
+  "n1": 14,
+  "merged": 2,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 18.0,
+  "t1": 19.0,
+  "n0": 14,
+  "n1": 13,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 22.0,
+  "t1": 23.0,
+  "n0": 13,
+  "n1": 12,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 24.0,
+  "t1": 25.0,
+  "n0": 12,
+  "n1": 10,
+  "merged": 2,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 25.0,
+  "t1": 26.0,
+  "n0": 10,
+  "n1": 9,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 26.0,
+  "t1": 27.0,
+  "n0": 9,
+  "n1": 7,
+  "merged": 2,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 27.0,
+  "t1": 28.0,
+  "n0": 7,
+  "n1": 6,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 35.0,
+  "t1": 36.0,
+  "n0": 6,
+  "n1": 5,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 38.0,
+  "t1": 39.0,
+  "n0": 5,
+  "n1": 4,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 41.0,
+  "t1": 42.0,
+  "n0": 4,
+  "n1": 3,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 44.0,
+  "t1": 45.0,
+  "n0": 3,
+  "n1": 2,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ },
+ {
+  "t0": 55.0,
+  "t1": 56.0,
+  "n0": 2,
+  "n1": 1,
+  "merged": 1,
+  "dissolved": 0,
+  "new": 0,
+  "dissolved_sizes": []
+ }
+]

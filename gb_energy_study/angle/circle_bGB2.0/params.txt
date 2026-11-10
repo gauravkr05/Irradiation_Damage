@@ -1,0 +1,15 @@
+grid NX NY NZ        = 160 1 96
+A0 bS bGB j jGB      = 4 1 2 2 2
+Ms Mgb Mb LGB        = 0.05 0.5 5 1
+tEnd outDt snapDt    = 400 1 50
+dtMax safety         = 0.001 0.5
+minThick             = 3
+nBubbles r0 minSep   = 1 16 19
+cInit noise seed     = 0.011 0 0
+initIn               = angle/ic_circle.bin
+centresIn            = (random)
+restart from         = (none)
+legacy theta label   = none
+initial gas total    = 970.11057783503065
+bubble centres (x y):
+  80 0

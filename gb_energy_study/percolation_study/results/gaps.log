@@ -1,0 +1,8 @@
+N25_bGB1.2 {'case': 'N25_bGB1.2', 't': 150.0, 'n': 6, 'min_gap': 8.22}
+N25_bGB1.5 {'case': 'N25_bGB1.5', 't': 150.0, 'n': 4, 'min_gap': 11.0}
+N25_bGB2.0 {'case': 'N25_bGB2.0', 't': 58.0, 'n': 1, 'min_gap': ''}
+N25_bGB3.0 {'case': 'N25_bGB3.0', 't': 32.0, 'n': 1, 'min_gap': ''}
+N33_bGB1.2 {'case': 'N33_bGB1.2', 't': 150.0, 'n': 8, 'min_gap': 3.472}
+N33_bGB1.5 {'case': 'N33_bGB1.5', 't': 150.0, 'n': 4, 'min_gap': 5.708}
+N33_bGB2.0 {'case': 'N33_bGB2.0', 't': 48.0, 'n': 1, 'min_gap': ''}
+N33_bGB3.0 {'case': 'N33_bGB3.0', 't': 27.0, 'n': 1, 'min_gap': ''}

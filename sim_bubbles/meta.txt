@@ -1,0 +1,5 @@
+dt 0.005
+Dg 2
+dx_nm 7.5
+D_real 3.4e-18
+tscale_s_per_tsim 33.0882
