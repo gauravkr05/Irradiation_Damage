@@ -1,0 +1,52 @@
+Initial bubbles placed = 0
+grid NX NY NZ        = 32 32 64
+A0 bS bGB j jGB      = 4 1 2 2 2
+Ms Mgb Mb LGB        = 0.05 0.5 5 10
+tEnd outDt snapDt    = 25 0.1 5
+dtMax safety         = 0.001 0.5
+minThick             = 3
+nBubbles r0 minSep   = 0 3.8 19
+cInit noise seed     = 0 0 11
+initIn               = (generated)
+centresIn            = (random)
+restart from         = (none)
+legacy theta label   = none
+dfBias gbOnly        = 0.1 1
+zgb0 biasMode        = 20 1
+rawEvery sliceY      = 1 16
+Gas: conserved Cahn-Hilliard, no source, no clamp. Initial total gas = 0
+t    0.00  step        0  GB z mean 20.0000  std 0.00e+00  F -5.98711022e+04  max|c| 0.0e+00
+t    1.00  step     1903  GB z mean 21.6116  std 0.00e+00  F -6.01435081e+04  max|c| 0.0e+00
+t    2.00  step     3816  GB z mean 23.1187  std 4.75e-06  F -6.02857347e+04  max|c| 0.0e+00
+t    3.00  step     5718  GB z mean 24.6600  std 0.00e+00  F -6.04547432e+04  max|c| 0.0e+00
+t    4.00  step     7633  GB z mean 26.2275  std 4.70e-06  F -6.06055883e+04  max|c| 0.0e+00
+t    5.00  step     9532  GB z mean 27.7088  std 0.00e+00  F -6.07656484e+04  max|c| 0.0e+00
+t    6.00  step    11446  GB z mean 29.3283  std 0.00e+00  F -6.09268116e+04  max|c| 0.0e+00
+t    7.00  step    13346  GB z mean 30.7610  std 0.00e+00  F -6.10766440e+04  max|c| 0.0e+00
+t    8.00  step    15261  GB z mean 32.4155  std 3.95e-06  F -6.12468461e+04  max|c| 0.0e+00
+t    9.00  step    17163  GB z mean 33.8207  std 2.97e-06  F -6.13881443e+04  max|c| 0.0e+00
+t   10.00  step    19074  GB z mean 35.4881  std 0.00e+00  F -6.15639381e+04  max|c| 0.0e+00
+t   11.00  step    20980  GB z mean 36.8929  std 4.87e-06  F -6.17006557e+04  max|c| 0.0e+00
+t   12.00  step    22889  GB z mean 38.5486  std 6.56e-06  F -6.18781983e+04  max|c| 0.0e+00
+t   13.00  step    24799  GB z mean 39.9851  std 6.28e-06  F -6.20148395e+04  max|c| 0.0e+00
+t   14.00  step    26704  GB z mean 41.6012  std 0.00e+00  F -6.21905826e+04  max|c| 0.0e+00
+t   15.00  step    28617  GB z mean 43.0957  std 0.00e+00  F -6.23314337e+04  max|c| 0.0e+00
+t   16.00  step    30520  GB z mean 44.6501  std 0.00e+00  F -6.25019482e+04  max|c| 0.0e+00
+t   17.00  step    32436  GB z mean 46.2054  std 0.00e+00  F -6.26507788e+04  max|c| 0.0e+00
+t   18.00  step    34336  GB z mean 47.6985  std 0.00e+00  F -6.28128850e+04  max|c| 0.0e+00
+t   19.00  step    36252  GB z mean 49.3083  std 0.00e+00  F -6.29719101e+04  max|c| 0.0e+00
+t   20.00  step    38152  GB z mean 50.7497  std 0.00e+00  F -6.31238291e+04  max|c| 0.0e+00
+t   21.00  step    40067  GB z mean 52.3987  std 0.00e+00  F -6.32923955e+04  max|c| 0.0e+00
+t   22.00  step    41968  GB z mean 53.8075  std 0.00e+00  F -6.34351875e+04  max|c| 0.0e+00
+t   23.00  step    43881  GB z mean 55.4741  std 0.00e+00  F -6.36101435e+04  max|c| 0.0e+00
+t   24.00  step    45786  GB z mean 56.8766  std 1.11e-05  F -6.37474402e+04  max|c| 0.0e+00
+t   25.00  step    47695  GB z mean 58.5368  std 8.81e-06  F -6.39249269e+04  max|c| 0.0e+00
+Done.
+steps                       = 47695
+dt mean / min / max         = 5.2551e-04 / 5.1620e-04 / 5.4189e-04
+smallest dt_CH, dt_AC limit = 1.0324e-03, 6.1350e-03  (safety 5.0000e-01)
+max |mass drift|            = 0.0000e+00
+c range over run            = [0.0000e+00, 0.0000e+00]
+free-energy increases       = 0 (of 250 outputs)
+max projected bubble count  = 0  (gbOnly: not computed)
+dfBias, gbOnly              = 1.0000e-01, 1

@@ -1,0 +1,57 @@
+Loaded initial condition /home/gaurav/Documents/Irradiation_Damage/Flat_Gb_bubbles/ic/N33_z20_c0.18.bin (33 bubbles, r0 = 4.5, cInit = 0.18)
+grid NX NY NZ        = 128 128 64
+A0 bS bGB j jGB      = 4 1 2 2 2
+Ms Mgb Mb LGB        = 0.05 0.5 5 1
+tEnd outDt snapDt    = 30 0.1 1
+dtMax safety         = 0.001 0.5
+minThick             = 3
+nBubbles r0 minSep   = 33 4.5 19
+cInit noise seed     = 0.18 0.001 11
+initIn               = /home/gaurav/Documents/Irradiation_Damage/Flat_Gb_bubbles/ic/N33_z20_c0.18.bin
+centresIn            = (random)
+restart from         = (none)
+legacy theta label   = none
+dfBias gbOnly        = 0.5 0
+zgb0 biasMode        = 31.5 1
+rawEvery sliceY      = 50 64
+Gas: conserved Cahn-Hilliard, no source, no clamp. Initial total gas = 201902.86807784153
+t   0.00  step       0  dt 0.00e+00  bubbles  33  coverage 0.141  A1/Atot 0.031  porosity 0.0148  mass_drift 0.0e+00  c in [0.179, 0.998]  GB z 20.00  F -605284.9
+t   1.00  step    2102  dt 4.71e-04  bubbles  33  coverage 0.298  A1/Atot 0.032  porosity 0.0297  mass_drift 1.2e-14  c in [0.072, 1.018]  GB z 20.98  F -627406.1
+t   2.00  step    4214  dt 4.69e-04  bubbles  33  coverage 0.401  A1/Atot 0.033  porosity 0.0440  mass_drift -1.6e-14  c in [0.039, 1.017]  GB z 21.91  F -640325.9
+t   3.00  step    6337  dt 4.70e-04  bubbles  38  coverage 0.475  A1/Atot 0.034  porosity 0.0569  mass_drift -1.4e-15  c in [0.015, 1.016]  GB z 22.81  F -652056.8
+t   4.00  step    8475  dt 4.72e-04  bubbles  15  coverage 0.566  A1/Atot 0.431  porosity 0.0679  mass_drift -2.2e-14  c in [-0.004, 1.015]  GB z 23.70  F -662813.2
+t   5.00  step   10623  dt 4.74e-04  bubbles  10  coverage 0.651  A1/Atot 0.721  porosity 0.0781  mass_drift -7.5e-15  c in [-0.021, 1.015]  GB z 24.56  F -672761.9
+t   6.00  step   12778  dt 4.68e-04  bubbles   2  coverage 0.706  A1/Atot 0.968  porosity 0.0869  mass_drift -8.6e-16  c in [-0.032, 1.015]  GB z 25.42  F -681947.0
+t   7.00  step   14931  dt 4.63e-04  bubbles   1  coverage 0.716  A1/Atot 1.000  porosity 0.0949  mass_drift -1.1e-14  c in [-0.041, 1.015]  GB z 26.23  F -690501.6
+t   8.00  step   17080  dt 4.62e-04  bubbles   1  coverage 0.742  A1/Atot 1.000  porosity 0.1024  mass_drift -7.8e-15  c in [-0.048, 1.015]  GB z 26.98  F -698503.7
+t   9.00  step   19231  dt 4.63e-04  bubbles   1  coverage 0.766  A1/Atot 1.000  porosity 0.1091  mass_drift -5.9e-15  c in [-0.057, 1.015]  GB z 27.73  F -706049.3
+t  10.00  step   21391  dt 4.70e-04  bubbles   1  coverage 0.769  A1/Atot 1.000  porosity 0.1155  mass_drift -8.9e-15  c in [-0.062, 1.016]  GB z 28.50  F -713207.9
+t  11.00  step   23555  dt 4.63e-04  bubbles   1  coverage 0.779  A1/Atot 1.000  porosity 0.1214  mass_drift -4.9e-15  c in [-0.069, 1.017]  GB z 29.26  F -719983.7
+t  12.00  step   25719  dt 4.61e-04  bubbles   1  coverage 0.786  A1/Atot 1.000  porosity 0.1269  mass_drift -2.4e-14  c in [-0.075, 1.017]  GB z 29.95  F -726440.8
+t  13.00  step   27887  dt 4.61e-04  bubbles   1  coverage 0.787  A1/Atot 1.000  porosity 0.1320  mass_drift -8.1e-15  c in [-0.077, 1.017]  GB z 30.63  F -732650.2
+t  14.00  step   30057  dt 4.63e-04  bubbles   1  coverage 0.788  A1/Atot 1.000  porosity 0.1370  mass_drift 5.5e-15  c in [-0.089, 1.018]  GB z 31.35  F -738601.8
+t  15.00  step   32226  dt 4.62e-04  bubbles   1  coverage 0.788  A1/Atot 1.000  porosity 0.1416  mass_drift -5.3e-15  c in [-0.097, 1.018]  GB z 32.02  F -744287.5
+t  16.00  step   34399  dt 4.61e-04  bubbles   1  coverage 0.786  A1/Atot 1.000  porosity 0.1463  mass_drift -2.5e-14  c in [-0.095, 1.018]  GB z 32.67  F -749737.2
+t  17.00  step   36569  dt 4.61e-04  bubbles   1  coverage 0.784  A1/Atot 1.000  porosity 0.1502  mass_drift 5.8e-16  c in [-0.112, 1.019]  GB z 33.34  F -755036.8
+t  18.00  step   38746  dt 4.61e-04  bubbles   1  coverage 0.780  A1/Atot 1.000  porosity 0.1543  mass_drift 1.3e-14  c in [-0.107, 1.019]  GB z 34.01  F -760080.7
+t  19.00  step   40922  dt 4.61e-04  bubbles   1  coverage 0.775  A1/Atot 1.000  porosity 0.1581  mass_drift 2.9e-15  c in [-0.117, 1.019]  GB z 34.63  F -764966.2
+t  20.00  step   43097  dt 4.60e-04  bubbles   1  coverage 0.770  A1/Atot 1.000  porosity 0.1615  mass_drift 2.3e-15  c in [-0.120, 1.019]  GB z 35.29  F -769676.5
+t  21.00  step   45277  dt 4.61e-04  bubbles   1  coverage 0.765  A1/Atot 1.000  porosity 0.1652  mass_drift -1.7e-15  c in [-0.116, 1.020]  GB z 35.94  F -774240.9
+t  22.00  step   47457  dt 4.60e-04  bubbles   1  coverage 0.760  A1/Atot 1.000  porosity 0.1683  mass_drift 1.8e-14  c in [-0.130, 1.020]  GB z 36.57  F -778637.1
+t  23.00  step   49637  dt 4.60e-04  bubbles   1  coverage 0.754  A1/Atot 1.000  porosity 0.1714  mass_drift -8.9e-15  c in [-0.124, 1.020]  GB z 37.22  F -782894.6
+t  24.00  step   51817  dt 4.60e-04  bubbles   1  coverage 0.748  A1/Atot 1.000  porosity 0.1743  mass_drift 5.5e-15  c in [-0.138, 1.020]  GB z 37.86  F -787055.2
+t  25.00  step   53997  dt 4.60e-04  bubbles   1  coverage 0.743  A1/Atot 1.000  porosity 0.1767  mass_drift -5.5e-15  c in [-0.140, 1.021]  GB z 38.50  F -791041.3
+t  26.00  step   56177  dt 4.60e-04  bubbles   1  coverage 0.738  A1/Atot 1.000  porosity 0.1793  mass_drift -4.0e-15  c in [-0.149, 1.021]  GB z 39.15  F -794962.5
+t  27.00  step   58357  dt 4.60e-04  bubbles   1  coverage 0.735  A1/Atot 1.000  porosity 0.1815  mass_drift -1.4e-14  c in [-0.150, 1.021]  GB z 39.80  F -798778.9
+t  28.00  step   60537  dt 4.60e-04  bubbles   1  coverage 0.731  A1/Atot 1.000  porosity 0.1836  mass_drift 1.5e-14  c in [-0.159, 1.021]  GB z 40.45  F -802517.2
+t  29.00  step   62717  dt 4.60e-04  bubbles   1  coverage 0.729  A1/Atot 1.000  porosity 0.1854  mass_drift 5.5e-15  c in [-0.169, 1.021]  GB z 41.11  F -806219.6
+t  30.00  step   64897  dt 4.60e-04  bubbles   1  coverage 0.726  A1/Atot 1.000  porosity 0.1873  mass_drift 7.8e-15  c in [-0.165, 1.021]  GB z 41.78  F -809883.7
+Done.
+steps                       = 64897
+dt mean / min / max         = 4.6341e-04 / 4.5975e-04 / 4.8248e-04
+smallest dt_CH, dt_AC limit = 9.1950e-04, 5.6718e-02  (safety 5.0000e-01)
+max |mass drift|            = 4.8722e-14
+c range over run            = [-1.7008e-01, 1.0212e+00]
+free-energy increases       = 0 (of 300 outputs)
+max projected bubble count  = 38
+dfBias, gbOnly              = 5.0000e-01, 0

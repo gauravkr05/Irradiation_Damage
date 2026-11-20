@@ -1,0 +1,17 @@
+grid NX NY NZ        = 32 32 64
+A0 bS bGB j jGB      = 4 1 2 2 2
+Ms Mgb Mb LGB        = 0.05 0.5 5 1
+tEnd outDt snapDt    = 400 0.1 10
+dtMax safety         = 0.001 0.5
+minThick             = 3
+nBubbles r0 minSep   = 0 3.8 19
+cInit noise seed     = 0 0 11
+initIn               = (generated)
+centresIn            = (random)
+restart from         = (none)
+legacy theta label   = none
+dfBias gbOnly        = 0.1 1
+zgb0 biasMode        = 20 1
+rawEvery sliceY      = 1 16
+initial gas total    = 0
+bubble centres (x y):

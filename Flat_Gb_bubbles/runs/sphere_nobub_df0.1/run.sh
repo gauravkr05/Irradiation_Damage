@@ -1,0 +1,1 @@
+OMP_NUM_THREADS=3 /home/gaurav/Documents/Irradiation_Damage/Flat_Gb_bubbles/src/pf_mig_96 sphereR=32 nBubbles=0 cInit=0 noise=0 bGB=2.0 dfBias=0.1 biasMode=1 outDt=0.1 snapDt=1 rawEvery=50 saveGrains=1 stopAfterVanish=5 tEnd=400 outDir=.

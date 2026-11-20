@@ -1,0 +1,1 @@
+OMP_NUM_THREADS=1 /home/gaurav/Documents/Irradiation_Damage/Flat_Gb_bubbles/src/pf_mig_128 initIn=/home/gaurav/Documents/Irradiation_Damage/Flat_Gb_bubbles/ic/N33_z20_c0.18.bin bGB=2.0 dfBias=0.1 biasMode=1 LGB=10 outDt=0.1 snapDt=1 rawEvery=50 saveGrains=1 sliceY=64 outDir=. tEnd=25

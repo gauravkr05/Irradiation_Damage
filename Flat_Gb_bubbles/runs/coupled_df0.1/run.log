@@ -1,0 +1,394 @@
+Loaded initial condition /home/gaurav/Documents/Irradiation_Damage/Flat_Gb_bubbles/ic/N33_z20_c0.18.bin (33 bubbles, r0 = 4.5, cInit = 0.18)
+grid NX NY NZ        = 128 128 64
+A0 bS bGB j jGB      = 4 1 2 2 2
+Ms Mgb Mb LGB        = 0.05 0.5 5 1
+tEnd outDt snapDt    = 350 0.1 1
+dtMax safety         = 0.001 0.5
+minThick             = 3
+nBubbles r0 minSep   = 33 4.5 19
+cInit noise seed     = 0.18 0.001 11
+initIn               = /home/gaurav/Documents/Irradiation_Damage/Flat_Gb_bubbles/ic/N33_z20_c0.18.bin
+centresIn            = (random)
+restart from         = (none)
+legacy theta label   = none
+dfBias gbOnly        = 0.1 0
+zgb0 biasMode        = 31.5 1
+rawEvery sliceY      = 25 64
+Gas: conserved Cahn-Hilliard, no source, no clamp. Initial total gas = 201902.86807784229
+t   0.00  step       0  dt 0.00e+00  bubbles  33  coverage 0.141  A1/Atot 0.031  porosity 0.0148  mass_drift -2.9e-16  c in [0.179, 0.998]  GB z 20.00  F -887210.6
+t   1.00  step    2193  dt 4.55e-04  bubbles  33  coverage 0.245  A1/Atot 0.031  porosity 0.0250  mass_drift 0.0e+00  c in [0.112, 1.031]  GB z 20.23  F -896781.1
+t   2.00  step    4383  dt 4.62e-04  bubbles  33  coverage 0.311  A1/Atot 0.032  porosity 0.0338  mass_drift -3.9e-15  c in [0.093, 1.028]  GB z 20.42  F -899995.7
+t   3.00  step    6543  dt 4.62e-04  bubbles  33  coverage 0.375  A1/Atot 0.033  porosity 0.0424  mass_drift -8.6e-16  c in [0.077, 1.026]  GB z 20.58  F -903064.9
+t   4.00  step    8732  dt 4.54e-04  bubbles  33  coverage 0.451  A1/Atot 0.034  porosity 0.0503  mass_drift -1.3e-15  c in [0.065, 1.025]  GB z 20.74  F -905941.1
+t   5.00  step   10953  dt 4.48e-04  bubbles  18  coverage 0.528  A1/Atot 0.206  porosity 0.0583  mass_drift -4.0e-15  c in [0.055, 1.023]  GB z 20.91  F -908701.3
+t   6.00  step   13195  dt 4.47e-04  bubbles   7  coverage 0.586  A1/Atot 0.748  porosity 0.0658  mass_drift 2.5e-15  c in [0.043, 1.022]  GB z 21.13  F -911456.3
+t   7.00  step   15426  dt 4.53e-04  bubbles   6  coverage 0.616  A1/Atot 0.747  porosity 0.0724  mass_drift -7.4e-15  c in [0.032, 1.021]  GB z 21.33  F -914143.9
+t   8.00  step   17608  dt 4.66e-04  bubbles   4  coverage 0.640  A1/Atot 0.868  porosity 0.0787  mass_drift -3.9e-15  c in [0.024, 1.020]  GB z 21.49  F -916672.4
+t   9.00  step   19778  dt 4.58e-04  bubbles   3  coverage 0.665  A1/Atot 0.935  porosity 0.0846  mass_drift -2.9e-16  c in [0.021, 1.019]  GB z 21.62  F -919060.8
+t  10.00  step   21982  dt 4.52e-04  bubbles   2  coverage 0.701  A1/Atot 0.934  porosity 0.0901  mass_drift -5.5e-15  c in [0.019, 1.019]  GB z 21.76  F -921324.1
+t  11.00  step   24212  dt 4.48e-04  bubbles   2  coverage 0.737  A1/Atot 0.933  porosity 0.0953  mass_drift -6.8e-15  c in [0.014, 1.018]  GB z 21.91  F -923461.4
+t  12.00  step   26457  dt 4.46e-04  bubbles   1  coverage 0.766  A1/Atot 1.000  porosity 0.1000  mass_drift -2.3e-15  c in [0.011, 1.018]  GB z 22.11  F -925487.0
+t  13.00  step   28692  dt 4.52e-04  bubbles   1  coverage 0.783  A1/Atot 1.000  porosity 0.1044  mass_drift -8.5e-15  c in [0.008, 1.017]  GB z 22.30  F -927413.0
+t  14.00  step   30887  dt 4.61e-04  bubbles   1  coverage 0.795  A1/Atot 1.000  porosity 0.1086  mass_drift -8.8e-15  c in [0.005, 1.016]  GB z 22.45  F -929218.5
+t  15.00  step   33056  dt 4.59e-04  bubbles   1  coverage 0.804  A1/Atot 1.000  porosity 0.1127  mass_drift -3.7e-15  c in [0.001, 1.016]  GB z 22.58  F -930922.6
+t  16.00  step   35254  dt 4.53e-04  bubbles   1  coverage 0.816  A1/Atot 1.000  porosity 0.1165  mass_drift -5.2e-15  c in [-0.001, 1.015]  GB z 22.69  F -932553.5
+t  17.00  step   37477  dt 4.49e-04  bubbles   1  coverage 0.831  A1/Atot 1.000  porosity 0.1201  mass_drift 6.1e-15  c in [-0.003, 1.014]  GB z 22.82  F -934107.2
+t  18.00  step   39715  dt 4.47e-04  bubbles   1  coverage 0.847  A1/Atot 1.000  porosity 0.1235  mass_drift -7.6e-15  c in [-0.003, 1.013]  GB z 22.98  F -935593.2
+t  19.00  step   41955  dt 4.49e-04  bubbles   1  coverage 0.863  A1/Atot 1.000  porosity 0.1269  mass_drift 2.9e-16  c in [-0.004, 1.012]  GB z 23.17  F -937014.2
+t  20.00  step   44175  dt 4.55e-04  bubbles   1  coverage 0.873  A1/Atot 1.000  porosity 0.1300  mass_drift -8.8e-15  c in [-0.007, 1.012]  GB z 23.34  F -938363.0
+t  21.00  step   46358  dt 4.63e-04  bubbles   1  coverage 0.880  A1/Atot 1.000  porosity 0.1328  mass_drift -1.1e-14  c in [-0.007, 1.011]  GB z 23.47  F -939632.3
+t  22.00  step   48536  dt 4.57e-04  bubbles   1  coverage 0.883  A1/Atot 1.000  porosity 0.1354  mass_drift 1.3e-15  c in [-0.006, 1.011]  GB z 23.58  F -940825.6
+t  23.00  step   50741  dt 4.52e-04  bubbles   1  coverage 0.887  A1/Atot 1.000  porosity 0.1381  mass_drift 0.0e+00  c in [-0.005, 1.010]  GB z 23.68  F -941950.5
+t  24.00  step   52966  dt 4.49e-04  bubbles   1  coverage 0.891  A1/Atot 1.000  porosity 0.1406  mass_drift 9.5e-15  c in [-0.006, 1.010]  GB z 23.79  F -943010.5
+t  25.00  step   55196  dt 4.49e-04  bubbles   1  coverage 0.898  A1/Atot 1.000  porosity 0.1430  mass_drift 4.3e-16  c in [-0.008, 1.009]  GB z 23.94  F -944019.7
+t  26.00  step   57426  dt 4.49e-04  bubbles   1  coverage 0.907  A1/Atot 1.000  porosity 0.1453  mass_drift 3.0e-15  c in [-0.011, 1.009]  GB z 24.11  F -944986.9
+t  27.00  step   59655  dt 4.51e-04  bubbles   1  coverage 0.914  A1/Atot 1.000  porosity 0.1475  mass_drift -1.1e-14  c in [-0.011, 1.008]  GB z 24.26  F -945907.0
+t  28.00  step   61872  dt 4.54e-04  bubbles   1  coverage 0.920  A1/Atot 1.000  porosity 0.1497  mass_drift 3.6e-15  c in [-0.009, 1.008]  GB z 24.39  F -946773.4
+t  29.00  step   64069  dt 4.59e-04  bubbles   1  coverage 0.924  A1/Atot 1.000  porosity 0.1518  mass_drift -5.8e-16  c in [-0.007, 1.007]  GB z 24.50  F -947588.3
+t  30.00  step   66265  dt 4.54e-04  bubbles   1  coverage 0.927  A1/Atot 1.000  porosity 0.1539  mass_drift -5.5e-15  c in [-0.008, 1.007]  GB z 24.59  F -948358.2
+t  31.00  step   68480  dt 4.51e-04  bubbles   1  coverage 0.929  A1/Atot 1.000  porosity 0.1558  mass_drift -6.6e-15  c in [-0.009, 1.007]  GB z 24.68  F -949090.5
+t  32.00  step   70708  dt 4.50e-04  bubbles   1  coverage 0.932  A1/Atot 1.000  porosity 0.1575  mass_drift -8.8e-15  c in [-0.011, 1.006]  GB z 24.79  F -949785.0
+t  33.00  step   72938  dt 4.50e-04  bubbles   1  coverage 0.935  A1/Atot 1.000  porosity 0.1591  mass_drift -2.5e-15  c in [-0.013, 1.006]  GB z 24.93  F -950442.0
+t  34.00  step   75162  dt 4.51e-04  bubbles   1  coverage 0.940  A1/Atot 1.000  porosity 0.1606  mass_drift 1.9e-15  c in [-0.015, 1.006]  GB z 25.08  F -951066.5
+t  35.00  step   77387  dt 4.51e-04  bubbles   1  coverage 0.946  A1/Atot 1.000  porosity 0.1623  mass_drift -2.3e-15  c in [-0.017, 1.006]  GB z 25.22  F -951666.5
+t  36.00  step   79607  dt 4.52e-04  bubbles   1  coverage 0.950  A1/Atot 1.000  porosity 0.1640  mass_drift -5.6e-15  c in [-0.015, 1.005]  GB z 25.34  F -952238.1
+t  37.00  step   81823  dt 4.54e-04  bubbles   1  coverage 0.953  A1/Atot 1.000  porosity 0.1655  mass_drift -6.1e-15  c in [-0.014, 1.005]  GB z 25.44  F -952777.6
+t  38.00  step   84026  dt 4.56e-04  bubbles   1  coverage 0.956  A1/Atot 1.000  porosity 0.1670  mass_drift -4.8e-15  c in [-0.018, 1.005]  GB z 25.53  F -953290.3
+t  39.00  step   86231  dt 4.53e-04  bubbles   1  coverage 0.958  A1/Atot 1.000  porosity 0.1685  mass_drift -2.3e-15  c in [-0.018, 1.004]  GB z 25.61  F -953776.8
+t  40.00  step   88449  dt 4.51e-04  bubbles   1  coverage 0.960  A1/Atot 1.000  porosity 0.1697  mass_drift -2.5e-15  c in [-0.018, 1.004]  GB z 25.70  F -954235.8
+t  41.00  step   90669  dt 4.50e-04  bubbles   1  coverage 0.963  A1/Atot 1.000  porosity 0.1709  mass_drift 1.1e-14  c in [-0.020, 1.004]  GB z 25.81  F -954673.0
+t  42.00  step   92889  dt 4.51e-04  bubbles   1  coverage 0.964  A1/Atot 1.000  porosity 0.1723  mass_drift -5.2e-15  c in [-0.020, 1.003]  GB z 25.93  F -955085.4
+t  43.00  step   95109  dt 4.52e-04  bubbles   1  coverage 0.966  A1/Atot 1.000  porosity 0.1734  mass_drift 1.3e-15  c in [-0.019, 1.003]  GB z 26.07  F -955476.5
+t  44.00  step   97323  dt 4.54e-04  bubbles   1  coverage 0.968  A1/Atot 1.000  porosity 0.1746  mass_drift -5.0e-15  c in [-0.018, 1.003]  GB z 26.20  F -955847.2
+t  45.00  step   99518  dt 4.59e-04  bubbles   1  coverage 0.971  A1/Atot 1.000  porosity 0.1758  mass_drift -8.5e-15  c in [-0.019, 1.003]  GB z 26.33  F -956198.5
+t  46.00  step  101688  dt 4.64e-04  bubbles   1  coverage 0.974  A1/Atot 1.000  porosity 0.1771  mass_drift -4.2e-15  c in [-0.021, 1.003]  GB z 26.43  F -956535.7
+t  47.00  step  103856  dt 4.60e-04  bubbles   1  coverage 0.975  A1/Atot 1.000  porosity 0.1781  mass_drift 5.8e-15  c in [-0.022, 1.003]  GB z 26.50  F -956855.7
+t  48.00  step  106041  dt 4.57e-04  bubbles   1  coverage 0.976  A1/Atot 1.000  porosity 0.1790  mass_drift 5.3e-15  c in [-0.020, 1.003]  GB z 26.55  F -957154.2
+t  49.00  step  108238  dt 4.55e-04  bubbles   1  coverage 0.977  A1/Atot 1.000  porosity 0.1797  mass_drift -8.5e-15  c in [-0.020, 1.002]  GB z 26.61  F -957431.3
+t  50.00  step  110447  dt 4.53e-04  bubbles   1  coverage 0.977  A1/Atot 1.000  porosity 0.1806  mass_drift 5.8e-16  c in [-0.019, 1.002]  GB z 26.66  F -957687.7
+t  51.00  step  112665  dt 4.51e-04  bubbles   1  coverage 0.978  A1/Atot 1.000  porosity 0.1815  mass_drift 1.2e-15  c in [-0.018, 1.002]  GB z 26.73  F -957923.2
+t  52.00  step  114885  dt 4.51e-04  bubbles   1  coverage 0.979  A1/Atot 1.000  porosity 0.1824  mass_drift -5.6e-15  c in [-0.017, 1.001]  GB z 26.80  F -958142.2
+t  53.00  step  117105  dt 4.52e-04  bubbles   1  coverage 0.979  A1/Atot 1.000  porosity 0.1833  mass_drift -9.5e-15  c in [-0.018, 1.001]  GB z 26.89  F -958349.1
+t  54.00  step  119318  dt 4.52e-04  bubbles   1  coverage 0.980  A1/Atot 1.000  porosity 0.1840  mass_drift -9.2e-15  c in [-0.017, 1.001]  GB z 27.00  F -958546.5
+t  55.00  step  121538  dt 4.52e-04  bubbles   1  coverage 0.980  A1/Atot 1.000  porosity 0.1846  mass_drift 1.3e-15  c in [-0.020, 1.001]  GB z 27.12  F -958735.7
+t  56.00  step  123758  dt 4.52e-04  bubbles   1  coverage 0.982  A1/Atot 1.000  porosity 0.1853  mass_drift 2.9e-15  c in [-0.023, 1.001]  GB z 27.21  F -958919.6
+t  57.00  step  125970  dt 4.54e-04  bubbles   1  coverage 0.982  A1/Atot 1.000  porosity 0.1860  mass_drift -1.5e-14  c in [-0.022, 1.001]  GB z 27.29  F -959095.6
+t  58.00  step  128168  dt 4.58e-04  bubbles   1  coverage 0.983  A1/Atot 1.000  porosity 0.1868  mass_drift -4.8e-15  c in [-0.021, 1.001]  GB z 27.36  F -959261.4
+t  59.00  step  130350  dt 4.61e-04  bubbles   1  coverage 0.984  A1/Atot 1.000  porosity 0.1875  mass_drift 7.2e-16  c in [-0.021, 1.001]  GB z 27.41  F -959419.6
+t  60.00  step  132520  dt 4.62e-04  bubbles   1  coverage 0.985  A1/Atot 1.000  porosity 0.1883  mass_drift 2.6e-15  c in [-0.020, 1.001]  GB z 27.46  F -959570.9
+t  61.00  step  134696  dt 4.60e-04  bubbles   1  coverage 0.985  A1/Atot 1.000  porosity 0.1889  mass_drift 4.6e-15  c in [-0.019, 1.000]  GB z 27.50  F -959715.1
+t  62.00  step  136880  dt 4.58e-04  bubbles   1  coverage 0.986  A1/Atot 1.000  porosity 0.1892  mass_drift -6.2e-15  c in [-0.019, 1.000]  GB z 27.54  F -959851.5
+t  63.00  step  139070  dt 4.57e-04  bubbles   1  coverage 0.986  A1/Atot 1.000  porosity 0.1894  mass_drift 4.3e-15  c in [-0.019, 1.000]  GB z 27.58  F -959979.8
+t  64.00  step  141270  dt 4.55e-04  bubbles   1  coverage 0.986  A1/Atot 1.000  porosity 0.1896  mass_drift -5.2e-15  c in [-0.019, 1.000]  GB z 27.61  F -960099.3
+t  65.00  step  143475  dt 4.54e-04  bubbles   1  coverage 0.987  A1/Atot 1.000  porosity 0.1898  mass_drift -8.1e-15  c in [-0.019, 0.999]  GB z 27.65  F -960209.1
+t  66.00  step  145685  dt 4.53e-04  bubbles   1  coverage 0.987  A1/Atot 1.000  porosity 0.1900  mass_drift 8.6e-16  c in [-0.018, 0.999]  GB z 27.69  F -960309.4
+t  67.00  step  147901  dt 4.52e-04  bubbles   1  coverage 0.988  A1/Atot 1.000  porosity 0.1903  mass_drift -1.1e-14  c in [-0.017, 0.999]  GB z 27.74  F -960401.7
+t  68.00  step  150121  dt 4.52e-04  bubbles   1  coverage 0.988  A1/Atot 1.000  porosity 0.1907  mass_drift 2.6e-15  c in [-0.018, 0.999]  GB z 27.79  F -960488.7
+t  69.00  step  152341  dt 4.52e-04  bubbles   1  coverage 0.988  A1/Atot 1.000  porosity 0.1911  mass_drift 1.4e-15  c in [-0.018, 0.999]  GB z 27.86  F -960572.7
+t  70.00  step  154553  dt 4.53e-04  bubbles   1  coverage 0.988  A1/Atot 1.000  porosity 0.1916  mass_drift -1.7e-15  c in [-0.019, 0.999]  GB z 27.93  F -960655.5
+t  71.00  step  156760  dt 4.55e-04  bubbles   1  coverage 0.989  A1/Atot 1.000  porosity 0.1920  mass_drift 6.2e-15  c in [-0.020, 0.999]  GB z 28.02  F -960738.1
+t  72.00  step  158956  dt 4.58e-04  bubbles   1  coverage 0.989  A1/Atot 1.000  porosity 0.1924  mass_drift -7.5e-15  c in [-0.021, 0.999]  GB z 28.10  F -960820.3
+t  73.00  step  161138  dt 4.61e-04  bubbles   1  coverage 0.990  A1/Atot 1.000  porosity 0.1928  mass_drift -2.5e-15  c in [-0.022, 0.999]  GB z 28.19  F -960902.2
+t  74.00  step  163303  dt 4.65e-04  bubbles   1  coverage 0.990  A1/Atot 1.000  porosity 0.1933  mass_drift 2.2e-15  c in [-0.025, 0.999]  GB z 28.28  F -960984.9
+t  75.00  step  165454  dt 4.68e-04  bubbles   1  coverage 0.991  A1/Atot 1.000  porosity 0.1939  mass_drift -6.1e-15  c in [-0.026, 0.999]  GB z 28.32  F -961070.2
+t  76.00  step  167591  dt 4.70e-04  bubbles   1  coverage 0.992  A1/Atot 1.000  porosity 0.1944  mass_drift -6.3e-15  c in [-0.026, 0.999]  GB z 28.35  F -961155.0
+t  77.00  step  169721  dt 4.71e-04  bubbles   1  coverage 0.992  A1/Atot 1.000  porosity 0.1949  mass_drift -1.4e-15  c in [-0.025, 0.999]  GB z 28.39  F -961238.1
+t  78.00  step  171851  dt 4.70e-04  bubbles   1  coverage 0.993  A1/Atot 1.000  porosity 0.1955  mass_drift -1.1e-14  c in [-0.025, 0.999]  GB z 28.41  F -961320.6
+t  79.00  step  173990  dt 4.68e-04  bubbles   1  coverage 0.993  A1/Atot 1.000  porosity 0.1961  mass_drift -1.2e-14  c in [-0.025, 0.998]  GB z 28.43  F -961402.3
+t  80.00  step  176130  dt 4.68e-04  bubbles   1  coverage 0.993  A1/Atot 1.000  porosity 0.1962  mass_drift -1.9e-15  c in [-0.024, 0.998]  GB z 28.45  F -961482.4
+t  81.00  step  178277  dt 4.67e-04  bubbles   1  coverage 0.993  A1/Atot 1.000  porosity 0.1963  mass_drift -3.9e-15  c in [-0.023, 0.998]  GB z 28.47  F -961559.7
+t  82.00  step  180427  dt 4.66e-04  bubbles   1  coverage 0.994  A1/Atot 1.000  porosity 0.1963  mass_drift -4.0e-15  c in [-0.023, 0.998]  GB z 28.48  F -961634.2
+t  83.00  step  182577  dt 4.65e-04  bubbles   1  coverage 0.994  A1/Atot 1.000  porosity 0.1962  mass_drift -1.3e-14  c in [-0.023, 0.999]  GB z 28.50  F -961705.9
+t  84.00  step  184737  dt 4.64e-04  bubbles   1  coverage 0.994  A1/Atot 1.000  porosity 0.1961  mass_drift -9.1e-15  c in [-0.023, 0.999]  GB z 28.52  F -961774.7
+t  85.00  step  186897  dt 4.64e-04  bubbles   1  coverage 0.994  A1/Atot 1.000  porosity 0.1960  mass_drift -6.1e-15  c in [-0.023, 0.999]  GB z 28.54  F -961840.3
+t  86.00  step  189060  dt 4.63e-04  bubbles   1  coverage 0.995  A1/Atot 1.000  porosity 0.1958  mass_drift -3.9e-15  c in [-0.024, 0.999]  GB z 28.56  F -961902.5
+t  87.00  step  191230  dt 4.62e-04  bubbles   1  coverage 0.995  A1/Atot 1.000  porosity 0.1956  mass_drift 1.7e-15  c in [-0.024, 0.999]  GB z 28.58  F -961961.4
+t  88.00  step  193400  dt 4.61e-04  bubbles   1  coverage 0.995  A1/Atot 1.000  porosity 0.1955  mass_drift -2.3e-15  c in [-0.023, 0.999]  GB z 28.59  F -962016.9
+t  89.00  step  195570  dt 4.61e-04  bubbles   1  coverage 0.995  A1/Atot 1.000  porosity 0.1953  mass_drift -1.1e-14  c in [-0.022, 0.999]  GB z 28.61  F -962069.3
+t  90.00  step  197749  dt 4.60e-04  bubbles   1  coverage 0.995  A1/Atot 1.000  porosity 0.1952  mass_drift -6.8e-15  c in [-0.022, 0.999]  GB z 28.63  F -962118.9
+t  91.00  step  199929  dt 4.60e-04  bubbles   1  coverage 0.996  A1/Atot 1.000  porosity 0.1951  mass_drift -7.9e-15  c in [-0.022, 0.999]  GB z 28.66  F -962165.9
+t  92.00  step  202109  dt 4.60e-04  bubbles   1  coverage 0.996  A1/Atot 1.000  porosity 0.1953  mass_drift -3.5e-15  c in [-0.022, 0.999]  GB z 28.68  F -962211.3
+t  93.00  step  204289  dt 4.60e-04  bubbles   1  coverage 0.996  A1/Atot 1.000  porosity 0.1955  mass_drift 3.7e-15  c in [-0.024, 0.999]  GB z 28.71  F -962256.7
+t  94.00  step  206469  dt 4.61e-04  bubbles   1  coverage 0.997  A1/Atot 1.000  porosity 0.1957  mass_drift -4.6e-15  c in [-0.026, 0.999]  GB z 28.76  F -962304.6
+t  95.00  step  208641  dt 4.62e-04  bubbles   1  coverage 0.998  A1/Atot 1.000  porosity 0.1960  mass_drift -7.4e-15  c in [-0.027, 0.999]  GB z 28.78  F -962354.8
+t  96.00  step  210804  dt 4.65e-04  bubbles   1  coverage 0.998  A1/Atot 1.000  porosity 0.1964  mass_drift -1.2e-15  c in [-0.026, 0.998]  GB z 28.80  F -962404.8
+t  97.00  step  212950  dt 4.70e-04  bubbles   1  coverage 0.998  A1/Atot 1.000  porosity 0.1968  mass_drift -6.6e-15  c in [-0.026, 0.998]  GB z 28.81  F -962455.2
+t  98.00  step  215068  dt 4.77e-04  bubbles   1  coverage 0.999  A1/Atot 1.000  porosity 0.1971  mass_drift -1.7e-15  c in [-0.025, 0.998]  GB z 28.83  F -962507.4
+t  99.00  step  217143  dt 4.89e-04  bubbles   1  coverage 0.999  A1/Atot 1.000  porosity 0.1973  mass_drift -3.3e-15  c in [-0.025, 0.998]  GB z 28.82  F -962561.9
+t 100.00  step  219169  dt 5.00e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1975  mass_drift 5.8e-16  c in [-0.027, 0.998]  GB z nan  F -962619.8
+t 101.00  step  221169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1978  mass_drift -5.8e-15  c in [-0.028, 0.997]  GB z nan  F -962679.0
+t 102.00  step  223169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1982  mass_drift 3.7e-15  c in [-0.027, 0.997]  GB z nan  F -962736.7
+t 103.00  step  225169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1985  mass_drift -8.4e-15  c in [-0.027, 0.997]  GB z nan  F -962794.0
+t 104.00  step  227169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1988  mass_drift -2.7e-15  c in [-0.027, 0.997]  GB z nan  F -962851.7
+t 105.00  step  229169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1992  mass_drift 1.2e-15  c in [-0.026, 0.997]  GB z nan  F -962909.5
+t 106.00  step  231169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1996  mass_drift -5.2e-15  c in [-0.025, 0.997]  GB z nan  F -962967.6
+t 107.00  step  233169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2002  mass_drift -9.4e-15  c in [-0.025, 0.997]  GB z nan  F -963026.3
+t 108.00  step  235169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2006  mass_drift 6.8e-15  c in [-0.025, 0.997]  GB z nan  F -963085.6
+t 109.00  step  237169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2008  mass_drift -1.2e-14  c in [-0.025, 0.997]  GB z nan  F -963145.0
+t 110.00  step  239169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2009  mass_drift -6.6e-15  c in [-0.025, 0.997]  GB z nan  F -963204.5
+t 111.00  step  241169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2010  mass_drift -5.9e-15  c in [-0.025, 0.997]  GB z nan  F -963263.9
+t 112.00  step  243169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2009  mass_drift 3.7e-15  c in [-0.026, 0.997]  GB z nan  F -963323.3
+t 113.00  step  245169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2008  mass_drift -8.4e-15  c in [-0.026, 0.997]  GB z nan  F -963382.3
+t 114.00  step  247169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2006  mass_drift 8.2e-15  c in [-0.025, 0.997]  GB z nan  F -963440.8
+t 115.00  step  249169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2003  mass_drift 1.7e-15  c in [-0.025, 0.998]  GB z nan  F -963498.4
+t 116.00  step  251169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2001  mass_drift -1.4e-15  c in [-0.025, 0.998]  GB z nan  F -963554.8
+t 117.00  step  253169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1997  mass_drift -5.5e-15  c in [-0.026, 0.998]  GB z nan  F -963609.6
+t 118.00  step  255169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1994  mass_drift 4.9e-15  c in [-0.025, 0.998]  GB z nan  F -963661.9
+t 119.00  step  257169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1990  mass_drift -5.6e-15  c in [-0.025, 0.998]  GB z nan  F -963711.3
+t 120.00  step  259169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1986  mass_drift -9.4e-15  c in [-0.023, 0.998]  GB z nan  F -963757.9
+t 121.00  step  261169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1982  mass_drift 5.8e-16  c in [-0.023, 0.998]  GB z nan  F -963802.4
+t 122.00  step  263169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1979  mass_drift 6.3e-15  c in [-0.024, 0.998]  GB z nan  F -963845.1
+t 123.00  step  265169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1975  mass_drift -9.2e-15  c in [-0.024, 0.998]  GB z nan  F -963886.3
+t 124.00  step  267169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1972  mass_drift -4.0e-15  c in [-0.024, 0.998]  GB z nan  F -963926.2
+t 125.00  step  269169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1968  mass_drift -9.5e-15  c in [-0.024, 0.999]  GB z nan  F -963965.0
+t 126.00  step  271169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1965  mass_drift -1.5e-14  c in [-0.024, 0.998]  GB z nan  F -964002.3
+t 127.00  step  273169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1963  mass_drift 7.8e-15  c in [-0.024, 0.998]  GB z nan  F -964038.3
+t 128.00  step  275169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1960  mass_drift -1.0e-14  c in [-0.024, 0.998]  GB z nan  F -964073.0
+t 129.00  step  277169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1960  mass_drift -5.9e-15  c in [-0.024, 0.999]  GB z nan  F -964105.9
+t 130.00  step  279169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1959  mass_drift 7.2e-15  c in [-0.023, 0.999]  GB z nan  F -964137.1
+t 131.00  step  281169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1959  mass_drift -1.2e-14  c in [-0.021, 0.999]  GB z nan  F -964167.6
+t 132.00  step  283169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1960  mass_drift -7.5e-15  c in [-0.021, 0.999]  GB z nan  F -964198.4
+t 133.00  step  285169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1962  mass_drift -7.1e-15  c in [-0.021, 0.999]  GB z nan  F -964230.3
+t 134.00  step  287169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1966  mass_drift 8.6e-16  c in [-0.022, 0.998]  GB z nan  F -964263.6
+t 135.00  step  289169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1972  mass_drift 5.5e-15  c in [-0.022, 0.998]  GB z nan  F -964298.6
+t 136.00  step  291169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1976  mass_drift -1.4e-14  c in [-0.022, 0.998]  GB z nan  F -964335.7
+t 137.00  step  293169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1980  mass_drift -2.3e-15  c in [-0.022, 0.998]  GB z nan  F -964375.3
+t 138.00  step  295169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1983  mass_drift -3.2e-15  c in [-0.023, 0.998]  GB z nan  F -964417.8
+t 139.00  step  297169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1988  mass_drift -6.2e-15  c in [-0.023, 0.997]  GB z nan  F -964463.3
+t 140.00  step  299169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1996  mass_drift 1.9e-15  c in [-0.023, 0.997]  GB z nan  F -964511.7
+t 141.00  step  301169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2005  mass_drift -1.6e-15  c in [-0.024, 0.997]  GB z nan  F -964562.7
+t 142.00  step  303169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2011  mass_drift -1.0e-14  c in [-0.024, 0.997]  GB z nan  F -964616.0
+t 143.00  step  305169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2016  mass_drift -1.4e-16  c in [-0.023, 0.997]  GB z nan  F -964671.3
+t 144.00  step  307169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2019  mass_drift 1.4e-15  c in [-0.024, 0.997]  GB z nan  F -964728.8
+t 145.00  step  309169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2021  mass_drift -2.0e-15  c in [-0.024, 0.997]  GB z nan  F -964788.3
+t 146.00  step  311169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2021  mass_drift -4.9e-15  c in [-0.024, 0.997]  GB z nan  F -964849.3
+t 147.00  step  313169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2021  mass_drift -1.1e-14  c in [-0.025, 0.997]  GB z nan  F -964910.9
+t 148.00  step  315169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2020  mass_drift 7.2e-16  c in [-0.025, 0.997]  GB z nan  F -964972.3
+t 149.00  step  317169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2018  mass_drift -9.4e-15  c in [-0.026, 0.997]  GB z nan  F -965032.8
+t 150.00  step  319169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2015  mass_drift -6.3e-15  c in [-0.026, 0.997]  GB z nan  F -965091.7
+t 151.00  step  321169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2012  mass_drift -4.2e-15  c in [-0.026, 0.997]  GB z nan  F -965148.5
+t 152.00  step  323169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2009  mass_drift 1.6e-15  c in [-0.026, 0.997]  GB z nan  F -965202.8
+t 153.00  step  325169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2006  mass_drift -2.6e-15  c in [-0.026, 0.997]  GB z nan  F -965254.5
+t 154.00  step  327169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2003  mass_drift 5.2e-15  c in [-0.026, 0.998]  GB z nan  F -965303.7
+t 155.00  step  329169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2000  mass_drift 0.0e+00  c in [-0.026, 0.998]  GB z nan  F -965350.8
+t 156.00  step  331169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1996  mass_drift 2.3e-15  c in [-0.026, 0.998]  GB z nan  F -965396.1
+t 157.00  step  333169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1992  mass_drift 6.9e-15  c in [-0.026, 0.998]  GB z nan  F -965440.2
+t 158.00  step  335169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1988  mass_drift 1.4e-16  c in [-0.026, 0.998]  GB z nan  F -965483.0
+t 159.00  step  337169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1983  mass_drift -1.7e-14  c in [-0.025, 0.998]  GB z nan  F -965524.2
+t 160.00  step  339169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1979  mass_drift -6.3e-15  c in [-0.025, 0.998]  GB z nan  F -965563.5
+t 161.00  step  341169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1975  mass_drift -5.5e-15  c in [-0.024, 0.998]  GB z nan  F -965600.5
+t 162.00  step  343169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1971  mass_drift -2.5e-15  c in [-0.024, 0.998]  GB z nan  F -965635.0
+t 163.00  step  345169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1967  mass_drift -1.1e-14  c in [-0.024, 0.998]  GB z nan  F -965667.6
+t 164.00  step  347169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1963  mass_drift -4.9e-15  c in [-0.025, 0.999]  GB z nan  F -965698.6
+t 165.00  step  349169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1960  mass_drift 2.7e-15  c in [-0.025, 0.999]  GB z nan  F -965728.7
+t 166.00  step  351169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1956  mass_drift -1.8e-14  c in [-0.025, 0.999]  GB z nan  F -965758.1
+t 167.00  step  353169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1954  mass_drift -1.1e-14  c in [-0.024, 0.999]  GB z nan  F -965786.7
+t 168.00  step  355169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1953  mass_drift 1.9e-15  c in [-0.023, 0.998]  GB z nan  F -965814.5
+t 169.00  step  357169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1953  mass_drift -4.3e-15  c in [-0.022, 0.998]  GB z nan  F -965841.8
+Restarting from checkpoint.bin at t = 169, step 357169
+grid NX NY NZ        = 128 128 64
+A0 bS bGB j jGB      = 4 1 2 2 2
+Ms Mgb Mb LGB        = 0.05 0.5 5 1
+tEnd outDt snapDt    = 350 0.1 1
+dtMax safety         = 0.001 0.5
+minThick             = 3
+nBubbles r0 minSep   = 33 4.5 19
+cInit noise seed     = 0.18 0.001 11
+initIn               = /home/gaurav/Documents/Irradiation_Damage/Flat_Gb_bubbles/ic/N33_z20_c0.18.bin
+centresIn            = (random)
+restart from         = checkpoint.bin
+legacy theta label   = none
+dfBias gbOnly        = 0.1 0
+zgb0 biasMode        = 31.5 1
+rawEvery sliceY      = 25 64
+Gas: conserved Cahn-Hilliard, no source, no clamp. Initial total gas = 201902.86807784229
+t 170.00  step  359169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1954  mass_drift -1.6e-15  c in [-0.021, 0.998]  GB z nan  F -965869.5
+t 171.00  step  361169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1959  mass_drift -7.8e-15  c in [-0.021, 0.998]  GB z nan  F -965898.4
+t 172.00  step  363169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1962  mass_drift -3.3e-15  c in [-0.022, 0.998]  GB z nan  F -965929.2
+t 173.00  step  365169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1967  mass_drift -6.9e-15  c in [-0.022, 0.998]  GB z nan  F -965962.7
+t 174.00  step  367169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1973  mass_drift 3.7e-15  c in [-0.023, 0.998]  GB z nan  F -965999.6
+t 175.00  step  369169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1980  mass_drift 2.9e-16  c in [-0.023, 0.998]  GB z nan  F -966040.2
+t 176.00  step  371169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1987  mass_drift -3.6e-15  c in [-0.024, 0.998]  GB z nan  F -966084.9
+t 177.00  step  373169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1998  mass_drift -1.4e-16  c in [-0.024, 0.998]  GB z nan  F -966133.5
+t 178.00  step  375169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2008  mass_drift 1.7e-15  c in [-0.024, 0.998]  GB z nan  F -966185.9
+t 179.00  step  377169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2014  mass_drift 5.8e-16  c in [-0.024, 0.998]  GB z nan  F -966241.8
+t 180.00  step  379169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2019  mass_drift 4.9e-15  c in [-0.025, 0.998]  GB z nan  F -966301.1
+t 181.00  step  381169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2022  mass_drift -7.8e-15  c in [-0.025, 0.998]  GB z nan  F -966363.4
+t 182.00  step  383169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2025  mass_drift -3.6e-15  c in [-0.026, 0.997]  GB z nan  F -966428.3
+t 183.00  step  385169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2026  mass_drift 1.0e-15  c in [-0.026, 0.997]  GB z nan  F -966494.8
+t 184.00  step  387169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2025  mass_drift -3.9e-15  c in [-0.026, 0.997]  GB z nan  F -966561.5
+t 185.00  step  389169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2024  mass_drift -1.9e-15  c in [-0.026, 0.997]  GB z nan  F -966627.2
+t 186.00  step  391169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2022  mass_drift -5.3e-15  c in [-0.025, 0.997]  GB z nan  F -966691.0
+t 187.00  step  393169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2021  mass_drift -2.9e-15  c in [-0.026, 0.997]  GB z nan  F -966752.6
+t 188.00  step  395169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2018  mass_drift -1.4e-16  c in [-0.026, 0.997]  GB z nan  F -966811.6
+t 189.00  step  397169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2014  mass_drift -1.4e-16  c in [-0.026, 0.997]  GB z nan  F -966868.3
+t 190.00  step  399169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2010  mass_drift -8.6e-16  c in [-0.027, 0.997]  GB z nan  F -966922.7
+t 191.00  step  401169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2005  mass_drift 1.4e-16  c in [-0.027, 0.997]  GB z nan  F -966975.1
+t 192.00  step  403169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2001  mass_drift -2.9e-15  c in [-0.027, 0.997]  GB z nan  F -967025.4
+t 193.00  step  405169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1996  mass_drift -6.2e-15  c in [-0.027, 0.997]  GB z nan  F -967073.2
+t 194.00  step  407169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1991  mass_drift -5.0e-15  c in [-0.026, 0.997]  GB z nan  F -967118.2
+t 195.00  step  409169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1987  mass_drift -1.0e-14  c in [-0.026, 0.998]  GB z nan  F -967160.3
+t 196.00  step  411169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1983  mass_drift -9.1e-15  c in [-0.026, 0.998]  GB z nan  F -967199.3
+t 197.00  step  413169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1979  mass_drift -8.4e-15  c in [-0.026, 0.998]  GB z nan  F -967235.6
+t 198.00  step  415169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1975  mass_drift -6.9e-15  c in [-0.026, 0.998]  GB z nan  F -967269.7
+t 199.00  step  417169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1971  mass_drift -2.9e-15  c in [-0.026, 0.998]  GB z nan  F -967301.8
+t 200.00  step  419169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1967  mass_drift -5.0e-15  c in [-0.025, 0.999]  GB z nan  F -967332.1
+t 201.00  step  421169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1963  mass_drift 1.7e-15  c in [-0.024, 0.999]  GB z nan  F -967360.9
+t 202.00  step  423169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1959  mass_drift 1.4e-15  c in [-0.023, 0.999]  GB z nan  F -967388.6
+t 203.00  step  425169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1956  mass_drift -4.3e-15  c in [-0.022, 0.999]  GB z nan  F -967415.2
+t 204.00  step  427169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1953  mass_drift -8.9e-15  c in [-0.022, 0.998]  GB z nan  F -967441.1
+t 205.00  step  429169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1950  mass_drift -9.8e-15  c in [-0.022, 0.998]  GB z nan  F -967466.6
+t 206.00  step  431169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1949  mass_drift -1.3e-15  c in [-0.021, 0.998]  GB z nan  F -967491.9
+t 207.00  step  433169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1951  mass_drift 2.9e-15  c in [-0.021, 0.998]  GB z nan  F -967517.6
+t 208.00  step  435169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1952  mass_drift 1.9e-15  c in [-0.021, 0.998]  GB z nan  F -967544.0
+t 209.00  step  437169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1955  mass_drift 3.0e-15  c in [-0.021, 0.998]  GB z nan  F -967571.8
+t 210.00  step  439169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1960  mass_drift -1.7e-14  c in [-0.022, 0.998]  GB z nan  F -967601.9
+t 211.00  step  441169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1967  mass_drift -1.9e-15  c in [-0.023, 0.998]  GB z nan  F -967634.8
+t 212.00  step  443169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1973  mass_drift 2.0e-15  c in [-0.023, 0.998]  GB z nan  F -967671.3
+t 213.00  step  445169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1980  mass_drift -4.0e-15  c in [-0.024, 0.998]  GB z nan  F -967711.7
+t 214.00  step  447169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1990  mass_drift -2.3e-15  c in [-0.024, 0.998]  GB z nan  F -967756.2
+t 215.00  step  449169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2003  mass_drift -4.8e-15  c in [-0.024, 0.998]  GB z nan  F -967805.0
+t 216.00  step  451169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2012  mass_drift -3.7e-15  c in [-0.024, 0.998]  GB z nan  F -967858.1
+t 217.00  step  453169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2022  mass_drift -5.5e-15  c in [-0.025, 0.998]  GB z nan  F -967915.3
+t 218.00  step  455169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2031  mass_drift -3.6e-15  c in [-0.025, 0.998]  GB z nan  F -967976.2
+t 219.00  step  457169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2032  mass_drift -9.1e-15  c in [-0.025, 0.998]  GB z nan  F -968040.4
+t 220.00  step  459169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2032  mass_drift -5.2e-15  c in [-0.025, 0.997]  GB z nan  F -968107.2
+t 221.00  step  461169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2033  mass_drift -9.1e-15  c in [-0.025, 0.997]  GB z nan  F -968175.7
+t 222.00  step  463169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2035  mass_drift -6.6e-15  c in [-0.025, 0.997]  GB z nan  F -968244.6
+t 223.00  step  465169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2033  mass_drift -1.4e-16  c in [-0.026, 0.997]  GB z nan  F -968312.9
+t 224.00  step  467169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2029  mass_drift -4.8e-15  c in [-0.026, 0.997]  GB z nan  F -968379.7
+t 225.00  step  469169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2024  mass_drift 1.2e-14  c in [-0.026, 0.997]  GB z nan  F -968444.2
+t 226.00  step  471169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2019  mass_drift -1.7e-15  c in [-0.027, 0.997]  GB z nan  F -968506.3
+t 227.00  step  473169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2014  mass_drift -1.4e-16  c in [-0.027, 0.997]  GB z nan  F -968565.6
+t 228.00  step  475169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2008  mass_drift -2.9e-15  c in [-0.027, 0.997]  GB z nan  F -968622.3
+t 229.00  step  477169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2003  mass_drift 4.2e-15  c in [-0.027, 0.997]  GB z nan  F -968675.8
+t 230.00  step  479169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1997  mass_drift -1.1e-14  c in [-0.027, 0.997]  GB z nan  F -968725.6
+t 231.00  step  481169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1992  mass_drift -5.2e-15  c in [-0.027, 0.997]  GB z nan  F -968771.2
+t 232.00  step  483169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1987  mass_drift -2.2e-15  c in [-0.027, 0.998]  GB z nan  F -968813.1
+t 233.00  step  485169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1983  mass_drift -7.6e-15  c in [-0.026, 0.998]  GB z nan  F -968851.6
+t 234.00  step  487169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1978  mass_drift -5.8e-15  c in [-0.026, 0.998]  GB z nan  F -968887.4
+t 235.00  step  489169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1974  mass_drift -7.2e-16  c in [-0.025, 0.998]  GB z nan  F -968921.0
+t 236.00  step  491169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1970  mass_drift -9.4e-15  c in [-0.024, 0.999]  GB z nan  F -968952.6
+t 237.00  step  493169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1966  mass_drift 3.5e-15  c in [-0.023, 0.999]  GB z nan  F -968982.5
+t 238.00  step  495169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1962  mass_drift -5.8e-16  c in [-0.023, 0.998]  GB z nan  F -969010.9
+t 239.00  step  497169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1959  mass_drift -4.5e-15  c in [-0.023, 0.998]  GB z nan  F -969037.9
+t 240.00  step  499169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1955  mass_drift -6.9e-15  c in [-0.023, 0.998]  GB z nan  F -969063.8
+t 241.00  step  501169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1952  mass_drift -1.7e-15  c in [-0.022, 0.997]  GB z nan  F -969088.8
+t 242.00  step  503169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1949  mass_drift -7.9e-15  c in [-0.022, 0.997]  GB z nan  F -969113.2
+t 243.00  step  505169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1946  mass_drift -2.3e-15  c in [-0.022, 0.997]  GB z nan  F -969137.3
+t 244.00  step  507169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1944  mass_drift -3.7e-15  c in [-0.021, 0.998]  GB z nan  F -969161.3
+t 245.00  step  509169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1945  mass_drift 1.4e-15  c in [-0.021, 0.998]  GB z nan  F -969185.5
+t 246.00  step  511169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1947  mass_drift -5.0e-15  c in [-0.021, 0.998]  GB z nan  F -969210.3
+t 247.00  step  513169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1950  mass_drift -1.2e-15  c in [-0.020, 0.998]  GB z nan  F -969236.4
+t 248.00  step  515169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1956  mass_drift -6.3e-15  c in [-0.021, 0.998]  GB z nan  F -969264.5
+t 249.00  step  517169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1964  mass_drift 2.0e-15  c in [-0.022, 0.998]  GB z nan  F -969295.4
+t 250.00  step  519169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1973  mass_drift -4.0e-15  c in [-0.023, 0.998]  GB z nan  F -969330.0
+t 251.00  step  521169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1985  mass_drift 4.5e-15  c in [-0.023, 0.998]  GB z nan  F -969369.0
+t 252.00  step  523169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2005  mass_drift -4.0e-15  c in [-0.024, 0.998]  GB z nan  F -969413.0
+t 253.00  step  525169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2015  mass_drift -8.4e-15  c in [-0.024, 0.998]  GB z nan  F -969462.2
+t 254.00  step  527169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2023  mass_drift -1.0e-14  c in [-0.024, 0.998]  GB z nan  F -969516.8
+t 255.00  step  529169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2029  mass_drift -1.3e-14  c in [-0.025, 0.998]  GB z nan  F -969576.8
+t 256.00  step  531169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2034  mass_drift 5.9e-15  c in [-0.025, 0.998]  GB z nan  F -969641.6
+t 257.00  step  533169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2037  mass_drift -1.9e-15  c in [-0.025, 0.997]  GB z nan  F -969710.1
+t 258.00  step  535169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2039  mass_drift 8.6e-16  c in [-0.025, 0.997]  GB z nan  F -969780.8
+t 259.00  step  537169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2042  mass_drift -5.3e-15  c in [-0.026, 0.997]  GB z nan  F -969852.1
+t 260.00  step  539169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2038  mass_drift -3.0e-15  c in [-0.027, 0.997]  GB z nan  F -969922.6
+t 261.00  step  541169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2033  mass_drift -6.9e-15  c in [-0.027, 0.997]  GB z nan  F -969991.4
+t 262.00  step  543169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2029  mass_drift 3.7e-15  c in [-0.026, 0.997]  GB z nan  F -970058.1
+t 263.00  step  545169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2023  mass_drift -4.9e-15  c in [-0.027, 0.997]  GB z nan  F -970122.3
+t 264.00  step  547169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2017  mass_drift 1.0e-15  c in [-0.027, 0.997]  GB z nan  F -970183.9
+t 265.00  step  549169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2012  mass_drift 1.4e-16  c in [-0.026, 0.997]  GB z nan  F -970242.6
+t 266.00  step  551169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2006  mass_drift -5.8e-15  c in [-0.027, 0.997]  GB z nan  F -970297.9
+t 267.00  step  553169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2001  mass_drift -1.7e-15  c in [-0.027, 0.997]  GB z nan  F -970349.5
+t 268.00  step  555169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1996  mass_drift 3.2e-15  c in [-0.027, 0.998]  GB z nan  F -970397.2
+t 269.00  step  557169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1990  mass_drift -3.3e-15  c in [-0.027, 0.998]  GB z nan  F -970440.8
+t 270.00  step  559169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1985  mass_drift -5.8e-16  c in [-0.026, 0.998]  GB z nan  F -970480.9
+t 271.00  step  561169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1980  mass_drift 3.9e-15  c in [-0.025, 0.998]  GB z nan  F -970518.0
+t 272.00  step  563169  dt 5.01e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1976  mass_drift -4.9e-15  c in [-0.025, 0.998]  GB z nan  F -970552.5
+t 273.00  step  565169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1972  mass_drift -1.5e-14  c in [-0.024, 0.998]  GB z nan  F -970584.6
+t 274.00  step  567169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1968  mass_drift -1.1e-14  c in [-0.024, 0.997]  GB z nan  F -970614.7
+t 275.00  step  569169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1965  mass_drift -1.0e-15  c in [-0.023, 0.997]  GB z nan  F -970643.2
+t 276.00  step  571169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1961  mass_drift -3.9e-15  c in [-0.023, 0.997]  GB z nan  F -970670.2
+t 277.00  step  573169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1958  mass_drift 6.2e-15  c in [-0.023, 0.997]  GB z nan  F -970696.2
+t 278.00  step  575169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1954  mass_drift -5.5e-15  c in [-0.023, 0.997]  GB z nan  F -970721.3
+t 279.00  step  577169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1951  mass_drift -1.7e-15  c in [-0.022, 0.997]  GB z nan  F -970745.6
+t 280.00  step  579169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1948  mass_drift -3.9e-15  c in [-0.022, 0.997]  GB z nan  F -970769.4
+t 281.00  step  581169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1945  mass_drift -1.4e-14  c in [-0.022, 0.997]  GB z nan  F -970792.9
+t 282.00  step  583169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1941  mass_drift -6.3e-15  c in [-0.021, 0.998]  GB z nan  F -970816.2
+t 283.00  step  585169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1938  mass_drift 0.0e+00  c in [-0.021, 0.998]  GB z nan  F -970839.6
+t 284.00  step  587169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1938  mass_drift -3.3e-15  c in [-0.021, 0.998]  GB z nan  F -970863.4
+t 285.00  step  589169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1940  mass_drift -7.2e-16  c in [-0.020, 0.998]  GB z nan  F -970888.0
+t 286.00  step  591169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1946  mass_drift -5.8e-15  c in [-0.020, 0.998]  GB z nan  F -970914.0
+t 287.00  step  593169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1957  mass_drift 3.5e-15  c in [-0.020, 0.998]  GB z nan  F -970942.2
+t 288.00  step  595169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1971  mass_drift 6.2e-15  c in [-0.021, 0.998]  GB z nan  F -970973.6
+t 289.00  step  597169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1992  mass_drift -4.8e-15  c in [-0.023, 0.998]  GB z nan  F -971009.6
+t 290.00  step  599169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2013  mass_drift 2.7e-15  c in [-0.024, 0.998]  GB z nan  F -971051.3
+t 291.00  step  601169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2023  mass_drift 3.7e-15  c in [-0.024, 0.998]  GB z nan  F -971100.0
+t 292.00  step  603169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2029  mass_drift -5.5e-15  c in [-0.024, 0.998]  GB z nan  F -971156.3
+t 293.00  step  605169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2033  mass_drift 1.2e-14  c in [-0.025, 0.998]  GB z nan  F -971220.0
+t 294.00  step  607169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2036  mass_drift -5.3e-15  c in [-0.025, 0.997]  GB z nan  F -971290.1
+t 295.00  step  609169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2038  mass_drift -1.7e-15  c in [-0.026, 0.997]  GB z nan  F -971364.8
+t 296.00  step  611169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2041  mass_drift -5.8e-15  c in [-0.026, 0.997]  GB z nan  F -971441.3
+t 297.00  step  613169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2042  mass_drift 1.3e-15  c in [-0.026, 0.997]  GB z nan  F -971517.4
+t 298.00  step  615169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2037  mass_drift 4.3e-15  c in [-0.026, 0.997]  GB z nan  F -971591.3
+t 299.00  step  617169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2031  mass_drift -4.2e-15  c in [-0.027, 0.997]  GB z nan  F -971662.2
+t 300.00  step  619169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2026  mass_drift 2.0e-15  c in [-0.027, 0.996]  GB z nan  F -971729.7
+t 301.00  step  621169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2021  mass_drift -2.9e-15  c in [-0.027, 0.997]  GB z nan  F -971793.5
+t 302.00  step  623169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2016  mass_drift 2.3e-15  c in [-0.026, 0.997]  GB z nan  F -971853.5
+t 303.00  step  625169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2011  mass_drift -6.8e-15  c in [-0.026, 0.997]  GB z nan  F -971910.0
+t 304.00  step  627169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2004  mass_drift -3.6e-15  c in [-0.027, 0.998]  GB z nan  F -971962.8
+t 305.00  step  629169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1999  mass_drift -4.8e-15  c in [-0.027, 0.998]  GB z nan  F -972011.8
+t 306.00  step  631169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1994  mass_drift -7.2e-16  c in [-0.027, 0.998]  GB z nan  F -972056.9
+t 307.00  step  633169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1989  mass_drift 1.6e-15  c in [-0.026, 0.997]  GB z nan  F -972098.1
+t 308.00  step  635169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1985  mass_drift 3.0e-15  c in [-0.026, 0.997]  GB z nan  F -972136.1
+t 309.00  step  637169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1981  mass_drift 2.9e-15  c in [-0.025, 0.997]  GB z nan  F -972171.4
+t 310.00  step  639169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1977  mass_drift 0.0e+00  c in [-0.025, 0.997]  GB z nan  F -972204.3
+t 311.00  step  641169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1973  mass_drift -1.0e-15  c in [-0.024, 0.997]  GB z nan  F -972235.3
+t 312.00  step  643169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1969  mass_drift -3.3e-15  c in [-0.024, 0.997]  GB z nan  F -972264.7
+t 313.00  step  645169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1965  mass_drift 3.2e-15  c in [-0.024, 0.997]  GB z nan  F -972292.6
+t 314.00  step  647169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1961  mass_drift -1.2e-14  c in [-0.023, 0.997]  GB z nan  F -972319.4
+t 315.00  step  649169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1958  mass_drift -4.3e-16  c in [-0.023, 0.997]  GB z nan  F -972345.1
+t 316.00  step  651169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1954  mass_drift 5.2e-15  c in [-0.023, 0.997]  GB z nan  F -972370.0
+t 317.00  step  653169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1951  mass_drift 2.2e-15  c in [-0.022, 0.997]  GB z nan  F -972394.1
+t 318.00  step  655169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1948  mass_drift -9.5e-15  c in [-0.022, 0.997]  GB z nan  F -972417.7
+t 319.00  step  657169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1944  mass_drift 6.6e-15  c in [-0.022, 0.997]  GB z nan  F -972440.8
+t 320.00  step  659169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1941  mass_drift -5.9e-15  c in [-0.021, 0.997]  GB z nan  F -972463.7
+t 321.00  step  661169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1938  mass_drift -6.8e-15  c in [-0.021, 0.998]  GB z nan  F -972486.6
+t 322.00  step  663169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1935  mass_drift -6.1e-15  c in [-0.020, 0.998]  GB z nan  F -972509.7
+t 323.00  step  665169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1934  mass_drift 0.0e+00  c in [-0.020, 0.998]  GB z nan  F -972533.4
+t 324.00  step  667169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1936  mass_drift -8.6e-15  c in [-0.020, 0.998]  GB z nan  F -972558.2
+t 325.00  step  669169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1947  mass_drift -7.9e-15  c in [-0.019, 0.998]  GB z nan  F -972584.6
+t 326.00  step  671169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1963  mass_drift -5.8e-16  c in [-0.020, 0.998]  GB z nan  F -972613.6
+t 327.00  step  673169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1988  mass_drift -3.6e-15  c in [-0.021, 0.998]  GB z nan  F -972646.4
+t 328.00  step  675169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2012  mass_drift -5.6e-15  c in [-0.022, 0.998]  GB z nan  F -972684.6
+t 329.00  step  677169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2022  mass_drift 9.1e-15  c in [-0.024, 0.998]  GB z nan  F -972729.8
+t 330.00  step  679169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2029  mass_drift -8.6e-16  c in [-0.024, 0.998]  GB z nan  F -972783.4
+t 331.00  step  681169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2033  mass_drift -6.1e-15  c in [-0.025, 0.998]  GB z nan  F -972846.0
+t 332.00  step  683169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2035  mass_drift -3.3e-15  c in [-0.025, 0.998]  GB z nan  F -972916.8
+t 333.00  step  685169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2036  mass_drift -1.1e-14  c in [-0.026, 0.998]  GB z nan  F -972993.5
+t 334.00  step  687169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2039  mass_drift -4.8e-15  c in [-0.026, 0.997]  GB z nan  F -973073.0
+t 335.00  step  689169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2042  mass_drift -8.6e-16  c in [-0.026, 0.996]  GB z nan  F -973151.9
+t 336.00  step  691169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2037  mass_drift -9.4e-15  c in [-0.026, 0.996]  GB z nan  F -973227.7
+t 337.00  step  693169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2032  mass_drift -8.6e-16  c in [-0.026, 0.997]  GB z nan  F -973299.5
+t 338.00  step  695169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2027  mass_drift 5.8e-16  c in [-0.026, 0.997]  GB z nan  F -973366.9
+t 339.00  step  697169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2022  mass_drift -2.9e-16  c in [-0.026, 0.997]  GB z nan  F -973430.2
+t 340.00  step  699169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2018  mass_drift -2.7e-15  c in [-0.026, 0.997]  GB z nan  F -973489.5
+t 341.00  step  701169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2013  mass_drift -1.0e-15  c in [-0.026, 0.996]  GB z nan  F -973545.2
+t 342.00  step  703169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2007  mass_drift -4.8e-15  c in [-0.027, 0.996]  GB z nan  F -973597.5
+t 343.00  step  705169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.2001  mass_drift -8.6e-16  c in [-0.027, 0.997]  GB z nan  F -973646.4
+t 344.00  step  707169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1996  mass_drift -3.2e-15  c in [-0.027, 0.997]  GB z nan  F -973691.8
+t 345.00  step  709169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1991  mass_drift 1.6e-15  c in [-0.027, 0.997]  GB z nan  F -973733.7
+t 346.00  step  711169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1985  mass_drift 6.8e-15  c in [-0.026, 0.997]  GB z nan  F -973772.5
+t 347.00  step  713169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1981  mass_drift 5.6e-15  c in [-0.025, 0.997]  GB z nan  F -973808.7
+t 348.00  step  715169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1977  mass_drift -4.8e-15  c in [-0.025, 0.997]  GB z nan  F -973842.4
+t 349.00  step  717169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1973  mass_drift -7.1e-15  c in [-0.024, 0.997]  GB z nan  F -973874.0
+t 350.00  step  719169  dt 5.02e-04  bubbles   1  coverage 1.000  A1/Atot 1.000  porosity 0.1969  mass_drift -7.1e-15  c in [-0.024, 0.997]  GB z nan  F -973903.9
+Done.
+steps                       = 719169
+dt mean / min / max         = 5.0174e-04 / 5.0122e-04 / 5.0224e-04
+smallest dt_CH, dt_AC limit = 1.0024e-03, 6.1360e-02  (safety 5.0000e-01)
+max |mass drift|            = 2.1334e-14
+c range over run            = [-2.7748e-02, 1.0308e+00]
+free-energy increases       = 0 (of 3500 outputs)
+max projected bubble count  = 33
+dfBias, gbOnly              = 1.0000e-01, 0

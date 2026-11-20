@@ -1,0 +1,143 @@
+Initial bubbles placed on the sphere = 0 (requested 0)
+grid NX NY NZ        = 96 96 96
+A0 bS bGB j jGB      = 4 1 2 2 2
+Ms Mgb Mb LGB        = 0.05 0.5 5 1
+tEnd outDt snapDt    = 400 0.1 1
+dtMax safety         = 0.001 0.5
+minThick             = 3
+nBubbles r0 minSep   = 0 3.8 19
+cInit noise seed     = 0 0 11
+initIn               = (generated)
+centresIn            = (random)
+restart from         = (none)
+legacy theta label   = none
+dfBias gbOnly        = 0.025 0
+zgb0 biasMode        = 47.5 1
+rawEvery sliceY      = 50 48
+sphereR nDir stopAV  = 32 6000 5
+Gas: conserved Cahn-Hilliard, no source, no clamp. Initial total gas = 0
+t    0.00  step       0  R_gb 31.99  R_vol 32.01  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -866015.7
+t    1.00  step    1939  R_gb 31.83  R_vol 31.82  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -867537.8
+t    2.00  step    3889  R_gb 31.67  R_vol 31.69  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -867728.9
+t    3.00  step    5839  R_gb 31.51  R_vol 31.51  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -867920.4
+t    4.00  step    7789  R_gb 31.35  R_vol 31.36  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -868111.7
+t    5.00  step    9739  R_gb 31.18  R_vol 31.19  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -868300.6
+t    6.00  step   11689  R_gb 31.02  R_vol 31.03  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -868487.7
+t    7.00  step   13639  R_gb 30.86  R_vol 30.87  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -868674.4
+t    8.00  step   15589  R_gb 30.69  R_vol 30.68  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -868861.7
+t    9.00  step   17539  R_gb 30.52  R_vol 30.52  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -869050.0
+t   10.00  step   19489  R_gb 30.36  R_vol 30.35  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -869238.3
+t   11.00  step   21439  R_gb 30.19  R_vol 30.18  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -869424.1
+t   12.00  step   23389  R_gb 30.02  R_vol 30.04  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -869607.8
+t   13.00  step   25339  R_gb 29.86  R_vol 29.87  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -869791.3
+t   14.00  step   27289  R_gb 29.69  R_vol 29.67  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -869975.7
+t   15.00  step   29239  R_gb 29.52  R_vol 29.53  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -870161.1
+t   16.00  step   31189  R_gb 29.34  R_vol 29.35  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -870345.8
+t   17.00  step   33139  R_gb 29.17  R_vol 29.18  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -870527.9
+t   18.00  step   35089  R_gb 29.00  R_vol 29.00  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -870708.5
+t   19.00  step   37039  R_gb 28.83  R_vol 28.83  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -870889.2
+t   20.00  step   38989  R_gb 28.66  R_vol 28.67  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -871070.6
+t   21.00  step   40939  R_gb 28.48  R_vol 28.47  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -871252.8
+t   22.00  step   42889  R_gb 28.31  R_vol 28.31  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -871433.9
+t   23.00  step   44839  R_gb 28.13  R_vol 28.15  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -871612.3
+t   24.00  step   46789  R_gb 27.95  R_vol 27.97  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -871789.6
+t   25.00  step   48739  R_gb 27.78  R_vol 27.78  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -871967.3
+t   26.00  step   50689  R_gb 27.60  R_vol 27.58  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -872146.0
+t   27.00  step   52639  R_gb 27.42  R_vol 27.42  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -872325.1
+t   28.00  step   54589  R_gb 27.24  R_vol 27.25  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -872501.9
+t   29.00  step   56539  R_gb 27.06  R_vol 27.07  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -872676.3
+t   30.00  step   58489  R_gb 26.87  R_vol 26.88  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -872850.8
+t   31.00  step   60439  R_gb 26.69  R_vol 26.69  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -873026.0
+t   32.00  step   62389  R_gb 26.50  R_vol 26.50  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -873202.0
+t   33.00  step   64339  R_gb 26.32  R_vol 26.34  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -873376.9
+t   34.00  step   66289  R_gb 26.13  R_vol 26.12  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -873549.1
+t   35.00  step   68239  R_gb 25.95  R_vol 25.96  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -873720.4
+t   36.00  step   70189  R_gb 25.76  R_vol 25.76  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -873892.1
+t   37.00  step   72139  R_gb 25.57  R_vol 25.58  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -874064.9
+t   38.00  step   74089  R_gb 25.38  R_vol 25.38  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -874237.5
+t   39.00  step   76039  R_gb 25.19  R_vol 25.21  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -874407.3
+t   40.00  step   77989  R_gb 25.00  R_vol 25.03  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -874575.5
+t   41.00  step   79939  R_gb 24.80  R_vol 24.79  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -874744.1
+t   42.00  step   81889  R_gb 24.61  R_vol 24.61  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -874913.8
+t   43.00  step   83839  R_gb 24.41  R_vol 24.41  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -875083.5
+t   44.00  step   85789  R_gb 24.21  R_vol 24.24  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -875250.6
+t   45.00  step   87739  R_gb 24.02  R_vol 24.02  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -875416.0
+t   46.00  step   89689  R_gb 23.82  R_vol 23.83  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -875581.6
+t   47.00  step   91639  R_gb 23.61  R_vol 23.63  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -875748.2
+t   48.00  step   93589  R_gb 23.41  R_vol 23.41  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -875914.9
+t   49.00  step   95539  R_gb 23.21  R_vol 23.22  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -876079.0
+t   50.00  step   97489  R_gb 23.00  R_vol 23.02  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -876241.3
+t   51.00  step   99439  R_gb 22.79  R_vol 22.80  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -876404.0
+t   52.00  step  101389  R_gb 22.58  R_vol 22.58  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -876567.8
+t   53.00  step  103339  R_gb 22.37  R_vol 22.39  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -876731.3
+t   54.00  step  105289  R_gb 22.16  R_vol 22.17  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -876891.8
+t   55.00  step  107239  R_gb 21.95  R_vol 21.96  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -877051.2
+t   56.00  step  109189  R_gb 21.74  R_vol 21.74  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -877211.3
+t   57.00  step  111139  R_gb 21.52  R_vol 21.53  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -877372.3
+t   58.00  step  113089  R_gb 21.30  R_vol 21.32  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -877531.9
+t   59.00  step  115039  R_gb 21.08  R_vol 21.09  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -877688.9
+t   60.00  step  116989  R_gb 20.86  R_vol 20.87  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -877845.4
+t   61.00  step  118939  R_gb 20.63  R_vol 20.64  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -878003.0
+t   62.00  step  120889  R_gb 20.41  R_vol 20.40  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -878161.0
+t   63.00  step  122839  R_gb 20.18  R_vol 20.21  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -878316.1
+t   64.00  step  124789  R_gb 19.95  R_vol 19.97  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -878469.6
+t   65.00  step  126739  R_gb 19.72  R_vol 19.72  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -878624.0
+t   66.00  step  128689  R_gb 19.48  R_vol 19.49  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -878779.2
+t   67.00  step  130639  R_gb 19.25  R_vol 19.26  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -878932.4
+t   68.00  step  132589  R_gb 19.01  R_vol 19.00  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -879083.3
+t   69.00  step  134539  R_gb 18.76  R_vol 18.79  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -879234.5
+t   70.00  step  136489  R_gb 18.52  R_vol 18.54  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -879386.7
+t   71.00  step  138439  R_gb 18.27  R_vol 18.29  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -879537.7
+t   72.00  step  140389  R_gb 18.02  R_vol 18.05  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -879685.8
+t   73.00  step  142339  R_gb 17.77  R_vol 17.79  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -879834.0
+t   74.00  step  144289  R_gb 17.51  R_vol 17.51  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -879983.6
+t   75.00  step  146239  R_gb 17.25  R_vol 17.29  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -880131.5
+t   76.00  step  148189  R_gb 16.99  R_vol 17.02  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -880276.7
+t   77.00  step  150139  R_gb 16.73  R_vol 16.74  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -880422.4
+t   78.00  step  152089  R_gb 16.45  R_vol 16.45  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -880569.1
+t   79.00  step  154039  R_gb 16.18  R_vol 16.20  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -880713.4
+t   80.00  step  155989  R_gb 15.91  R_vol 15.89  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -880855.8
+t   81.00  step  157939  R_gb 15.62  R_vol 15.63  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -880999.1
+t   82.00  step  159889  R_gb 15.34  R_vol 15.36  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -881142.6
+t   83.00  step  161839  R_gb 15.05  R_vol 15.08  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -881282.9
+t   84.00  step  163789  R_gb 14.75  R_vol 14.76  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -881422.9
+t   85.00  step  165739  R_gb 14.45  R_vol 14.46  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -881564.0
+t   86.00  step  167689  R_gb 14.15  R_vol 14.16  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -881702.7
+t   87.00  step  169639  R_gb 13.83  R_vol 13.86  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -881839.8
+t   88.00  step  171589  R_gb 13.51  R_vol 13.52  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -881978.0
+t   89.00  step  173539  R_gb 13.19  R_vol 13.21  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -882114.9
+t   90.00  step  175489  R_gb 12.86  R_vol 12.88  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -882249.1
+t   91.00  step  177439  R_gb 12.52  R_vol 12.51  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -882384.8
+t   92.00  step  179389  R_gb 12.17  R_vol 12.23  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -882518.8
+t   93.00  step  181339  R_gb 11.81  R_vol 11.81  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -882650.6
+t   94.00  step  183289  R_gb 11.44  R_vol 11.44  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -882783.6
+t   95.00  step  185239  R_gb 11.07  R_vol 11.12  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -882914.3
+t   96.00  step  187189  R_gb 10.68  R_vol 10.70  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -883043.8
+t   97.00  step  189139  R_gb 10.27  R_vol 10.34  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -883173.9
+t   98.00  step  191089  R_gb 9.86  R_vol 9.87  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -883300.8
+t   99.00  step  193039  R_gb 9.42  R_vol 9.46  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -883428.6
+t  100.00  step  194989  R_gb 8.97  R_vol 9.01  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -883553.9
+t  101.00  step  196939  R_gb 8.49  R_vol 8.46  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -883679.0
+t  102.00  step  198889  R_gb 7.99  R_vol 8.04  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -883802.4
+t  103.00  step  200839  R_gb 7.45  R_vol 7.46  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -883925.1
+t  104.00  step  202789  R_gb 6.88  R_vol 6.90  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -884045.9
+t  105.00  step  204739  R_gb 6.26  R_vol 6.33  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -884166.4
+t  106.00  step  206689  R_gb 5.57  R_vol 5.56  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -884284.6
+t  107.00  step  208639  R_gb 4.79  R_vol 4.86  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -884401.9
+t  108.00  step  210589  R_gb 3.84  R_vol 4.06  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -884518.2
+t  109.00  step  212543  R_gb 2.54  R_vol 2.76  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -884634.2
+t  110.00  step  214474  R_gb nan  R_vol 0.00  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -884733.4
+t  111.00  step  216169  R_gb nan  R_vol 0.00  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -884736.0
+t  112.00  step  217856  R_gb nan  R_vol 0.00  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -884736.0
+t  113.00  step  219536  R_gb nan  R_vol 0.00  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -884736.0
+t  114.00  step  221216  R_gb nan  R_vol 0.00  cov 0.000  patches 0  A1/Atot 0.000  gas 0  F -884736.0
+Inner grain vanished at t = 1e+02; stopping at t = 1e+02
+Done.
+steps                       = 222392
+dt mean / min / max         = 5.1616e-04 / 5.0989e-04 / 5.9524e-04
+smallest dt_CH, dt_AC limit = 1.0198e-03, 6.2208e-02  (safety 5.0000e-01)
+max |mass drift|            = 0.0000e+00
+c range over run            = [0.0000e+00, 0.0000e+00]
+free-energy increases       = 0 (of 4000 outputs)
+max projected bubble count  = 0
+dfBias, gbOnly              = 2.5000e-02, 0

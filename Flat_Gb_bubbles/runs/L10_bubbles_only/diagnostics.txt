@@ -1,0 +1,9 @@
+end time                    = 30
+steps                       = 66501
+dt mean / min / max         = 4.5217e-04 / 4.4227e-04 / 4.7199e-04
+smallest dt_CH, dt_AC limit = 8.8453e-04, 6.1992e-03  (safety 5.0000e-01)
+max |mass drift|            = 1.5409e-13
+c range over run            = [-1.3803e-02, 1.0230e+00]
+free-energy increases       = 0 (of 300 outputs)
+max projected bubble count  = 33
+dfBias, gbOnly              = 0.0000e+00, 0

@@ -1,0 +1,10 @@
+time_dimensionless,step,c_file,grains_file
+0,0,,grains_step_0.raw
+5,10690,,grains_step_10690.raw
+10,21433,,grains_step_21433.raw
+15,32220,,grains_step_32220.raw
+20,42965,,grains_step_42965.raw
+25,53755,,grains_step_53755.raw
+30,64495,,grains_step_64495.raw
+35,75280,,grains_step_75280.raw
+40,86028,,grains_step_86028.raw

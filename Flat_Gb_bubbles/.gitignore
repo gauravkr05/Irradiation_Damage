@@ -1,0 +1,8 @@
+# Large raw simulation output, not tracked (about 1.4 GB).
+# Everything here can be regenerated: runs/NAME/run.sh holds each run's exact
+# command, and README.md has the IC-generation and build commands.
+*.raw
+checkpoint.bin
+**/maps/
+ic/*.bin
+src/pf_mig_*

@@ -1,0 +1,25 @@
+grid NX NY NZ        = 64 64 64
+A0 bS bGB j jGB      = 4 1 2 2 2
+Ms Mgb Mb LGB        = 0.05 0.5 5 1
+tEnd outDt snapDt    = 80 0.1 2
+dtMax safety         = 0.001 0.5
+minThick             = 3
+nBubbles r0 minSep   = 33 4.5 19
+cInit noise seed     = 0.16 0.001 11
+initIn               = (generated)
+centresIn            = ../centres_q64.csv
+restart from         = (none)
+legacy theta label   = none
+dfBias gbOnly        = 0 0
+zgb0 biasMode        = 20 0
+rawEvery sliceY      = 0 32
+initial gas total    = 45203.628247942164
+bubble centres (x y):
+  50.731615901374241 41.751212998848303
+  27.361527524291404 2.2910118433456432
+  30.315035377892457 22.081311006317563
+  60.169086963548764 62.538126174114268
+  56.093861999419204 11.890606659625689
+  17.937800900244682 58.842754602574161
+  13.084212209198157 30.632868846392128
+  31.830393138193955 43.996864055265334
